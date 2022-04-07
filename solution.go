@@ -9,7 +9,7 @@ func maxArea(height []int) int {
 			areaMax = max(areaMax, height[j]*width)
 			j--
 		} else {
-			areaMax = max(areaMax, height[i]*width)
+			areaMax = max(areaMax, height[i]*width)123
 			i++
 		}
 	}
